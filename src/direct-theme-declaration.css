@@ -1,0 +1,4 @@
+@theme {
+  --tracking-narrower: -0.02em;
+}
+/* If built, this file will include the @theme declaration but no "tailwindcss v4.1.13 | MIT License | https://tailwindcss.com" comment */

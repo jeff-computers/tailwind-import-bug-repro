@@ -1,0 +1,2 @@
+@import './direct-theme-declaration.css';
+/* If built, this file will not include the @theme declaration in direct-theme-declaration.css */

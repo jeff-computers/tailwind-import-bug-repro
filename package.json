@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-reproduction",
+  "version": "1.0.0",
+  "scripts": {
+    "build:direct-theme-declaration": "tailwindcss -i ./src/direct-theme-declaration.css -o ./dist/direct-theme-declaration.css",
+    "build:via-import": "tailwindcss -i ./src/via-import.css -o ./dist/via-import.css"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  },
+  "packageManager": "pnpm@10.12.1",
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
